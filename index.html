@@ -1,0 +1,249 @@
+<!doctype html>
+<html lang="es-AR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Pepe Di Roma · Casa de pastas en Villa Devoto</title>
+<meta name="description" content="Pepe Di Roma: pasta fresca hecha a mano, cafetería italiana y mostrador para llevar en Villa Devoto, Buenos Aires. Amore eterno per la pasta.">
+<meta name="theme-color" content="#CB1522">
+<meta property="og:title" content="Pepe Di Roma · Amore eterno per la pasta">
+<meta property="og:description" content="Pasta fresca hecha a mano en Villa Devoto.">
+<meta property="og:image" content="img/manos-cappelletti.webp">
+<link rel="icon" href="img/favicon.svg" type="image/svg+xml">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=Josefin+Sans:wght@400;600&family=Outfit:wght@300;400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css?v=6">
+</head>
+<body class="intro-on">
+
+<!-- INTRO: el palote estira la masa y aparece el logo -->
+<div class="intro" id="intro" aria-hidden="true">
+  <div class="intro-dough" id="introDough">
+    <div class="intro-logo" data-logo-red></div>
+  </div>
+  <div class="intro-pin" id="introPin"><span></span><i></i><span></span></div>
+  <button class="intro-skip" id="introSkip" type="button">Saltar</button>
+</div>
+
+<header class="nav" id="nav">
+  <a href="#top" class="nav-logo" aria-label="Pepe Di Roma, inicio" data-logo></a>
+  <nav class="nav-links" id="navLinks">
+    <a href="#fatto">Fatto a mano</a>
+    <a href="#carta">La carta</a>
+    <a href="#paste">Le paste</a>
+    <a href="#caja">Para llevar</a>
+    <a href="#visita">Visitanos</a>
+  </nav>
+  <a class="btn btn-rosso nav-cta" href="https://api.whatsapp.com/message/WBGK5C2JN6REC1?autoload=1&amp;app_absent=0" target="_blank" rel="noopener">Reservar</a>
+  <button class="burger" id="burger" type="button" aria-label="Abrir menú" aria-expanded="false"><span></span><span></span></button>
+</header>
+
+<main id="top">
+
+  <!-- HERO D -->
+  <section class="hero" id="hero">
+    <div class="hero-bg" id="heroBg">
+      <img src="img/manos-cappelletti.webp" alt="Manos armando cappelletti sobre harina" class="on">
+      <img src="img/interior-lampara.webp" alt="Bandejas de pasta fresca en el salón" loading="lazy">
+      <img src="img/focacce-mesa.webp" alt="Schiacciate sobre la mesa roja" loading="lazy">
+      <img src="img/plato-delantal.webp" alt="Plato servido por el cocinero" loading="lazy">
+    </div>
+    <div class="hero-card" id="heroCard">
+      <div class="hc-logo hc-in" data-logo-red></div>
+      <span class="hc-line hc-in"></span>
+      <h1 class="hc-in"><span class="w">Amore</span> <span class="w">eterno</span> <em><span class="w">per</span> <span class="w">la</span> <span class="w">pasta</span></em></h1>
+      <p class="hc-in">Pasta fresca hecha a mano en Villa Devoto. Salón, café y mostrador para llevar.</p>
+      <div class="hc-ctas hc-in">
+        <a href="#carta" class="btn btn-rosso">Ver la carta</a>
+        <a href="#caja" class="btn btn-line">Para llevar</a>
+      </div>
+    </div>
+    <div class="hero-dots" id="heroDots" aria-label="Cambiar foto"></div>
+  </section>
+
+  <div class="sep" aria-hidden="true"><span></span><b>Amore eterno per la pasta</b><i data-icon="anolini"></i><b>Villa Devoto</b><span></span></div>
+
+  <!-- FATTO A MANO: hoja de contactos -->
+  <section class="fatto" id="fatto">
+    <div class="wrap contact">
+      <div class="contact-intro reveal">
+        <p class="kicker">Fatto a mano</p>
+        <h2>Dal tavolo <em>al piatto</em></h2>
+        <p class="muted">Cada pasta rellena se arma a mano, una por una. Así nace un cappelletto en la cocina de Pepe.</p>
+      </div>
+      <figure class="cs reveal" data-i="0"><img src="img/paso-1.webp" alt="Relleno de espinaca a manga sobre masa verde" loading="lazy"><figcaption>01 · Ripieno</figcaption></figure>
+      <figure class="cs reveal" data-i="1"><img src="img/paso-2.webp" alt="Porciones de ricotta sobre la masa al huevo" loading="lazy"><figcaption>02 · Sfoglia</figcaption></figure>
+      <figure class="cs reveal" data-i="2"><img src="img/paso-3.webp" alt="La masa se dobla sobre el relleno" loading="lazy"><figcaption>03 · Piega</figcaption></figure>
+      <figure class="cs cs-mark reveal" data-i="3"><img src="img/paso-4.webp" alt="El cappelletto toma forma en la mano" loading="lazy"><figcaption>04 · Gesto</figcaption></figure>
+      <figure class="cs reveal" data-i="4"><img src="img/paso-5.webp" alt="Sartén con vapor y aceite de oliva" loading="lazy"><figcaption>05 · Fuoco</figcaption></figure>
+      <figure class="cs reveal" data-i="5"><img src="img/paso-6.webp" alt="Hojas y brotes frescos para terminar" loading="lazy"><figcaption>06 · Verde</figcaption></figure>
+      <figure class="cs reveal" data-i="6"><img src="img/paso-7.webp" alt="El plato terminado" loading="lazy"><figcaption>07 · Piatto</figcaption></figure>
+    </div>
+  </section>
+
+  <!-- CARTA -->
+  <section class="carta" id="carta">
+    <div class="wrap">
+      <div class="carta-head reveal">
+        <div>
+          <p class="kicker">La carta</p>
+          <h2>Mangia <em>bene</em></h2>
+        </div>
+        <label class="search">
+          <span>Buscar en la carta</span>
+          <input type="search" id="search" placeholder="Probá “gamberi”, “pistacho”, “veggie”…" autocomplete="off">
+        </label>
+      </div>
+      <div class="tabs reveal" role="tablist" id="tabs"></div>
+      <div class="carta-grid">
+        <div class="carta-list" id="cartaList"></div>
+        <aside class="carta-visual" aria-hidden="true">
+          <div class="cv-arch" id="cvArch"><img src="img/cappelletti-ossobuco.webp" alt="" class="on"><img alt=""></div>
+          <p class="cv-cap" id="cvCap">Cappelletti di ossobuco</p>
+          <div class="cv-orbit"><i data-icon="anolini"></i><i data-icon="caramelle"></i><i data-icon="tortelli"></i></div>
+        </aside>
+      </div>
+      <p class="carta-foot">No cobramos cubierto · 10% de descuento pagando en efectivo</p>
+    </div>
+  </section>
+
+  <!-- LE PASTE: catálogo -->
+  <section class="paste" id="paste">
+    <div class="boil" id="boil" aria-hidden="true"></div>
+    <div class="wrap">
+      <div class="paste-head reveal">
+        <p class="kicker">Le nostre paste</p>
+        <h2>Para cocinar <em>en casa</em></h2>
+        <p class="muted">Nuestras pastas frescas del mostrador. Pasá el mouse (o tocá) cada forma para ver relleno, cocción y precio.</p>
+      </div>
+      <div class="ptabs reveal" role="tablist" id="ptabs">
+        <button type="button" role="tab" aria-selected="true" data-k="ripiene">Paste ripiene <small>200 g</small></button>
+        <button type="button" role="tab" aria-selected="false" data-k="semplici">Paste semplici <small>180 g</small></button>
+      </div>
+      <div class="pgrid" id="pgrid"></div>
+      <div class="ptips reveal">
+        <p><b>Istruzioni</b> Cuando el agua rompa hervor, añadir sal y cocinar según el tipo de pasta.</p>
+        <p><b>Come ti piace</b> El tiempo puede variar según el gusto de cada comensal.</p>
+        <p><b>Conservazione</b> Heladera: rellena 2 días, extruida 4. Freezer: 3 meses, cocinar sin descongelar.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ARMÁ TU CAJA -->
+  <section class="caja" id="caja">
+    <div class="wrap caja-grid">
+      <div class="caja-left reveal">
+        <p class="kicker light">Per portare via</p>
+        <h2>Armá tu <em>caja</em></h2>
+        <div class="sizes" id="sizes" role="radiogroup" aria-label="Tamaño de caja">
+          <button type="button" role="radio" aria-checked="true" data-s="4">Caja chica · 4 porciones</button>
+          <button type="button" role="radio" aria-checked="false" data-s="8">Caja grande · 8</button>
+        </div>
+        <div class="picker">
+          <div class="picker-tabs" id="pickTabs">
+            <button type="button" aria-selected="true" data-k="0">Rellenas</button>
+            <button type="button" aria-selected="false" data-k="1">Simples</button>
+            <button type="button" aria-selected="false" data-k="2">Salsas</button>
+          </div>
+          <ul class="pick-list" id="pickList"></ul>
+        </div>
+      </div>
+      <div class="caja-right reveal">
+        <div class="box" id="box">
+          <div class="box-lid"><span data-logo-white></span><b id="boxCount">0 / 4</b></div>
+          <div class="slots" id="slots"></div>
+          <div class="potes" id="potes" aria-label="Salsas"></div>
+        </div>
+        <p class="box-msg" id="boxMsg" aria-live="polite"></p>
+        <div class="order">
+          <div><span>Total estimado</span><strong id="total">$ 0</strong></div>
+          <button type="button" class="btn btn-panna" id="send" disabled>Pedir por WhatsApp</button>
+        </div>
+        <p class="order-note">Copiamos tu pedido para que lo pegues en el chat. Precios de mostrador.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- GNOCCHI DEL 29 -->
+  <section class="ventinove" id="ventinove">
+    <div class="wrap v29">
+      <div class="v29-img reveal"><img src="img/gnocchi-trio.webp" alt="Tres platos de gnocchi" loading="lazy"></div>
+      <div class="v29-text">
+        <p class="kicker reveal">Gnocchi del 29</p>
+        <h2 class="reveal">Cada 29, <em>ñoquis.</em></h2>
+        <p class="muted reveal">La tradición más porteña, con masa italiana. Billete bajo el plato opcional.</p>
+        <div class="countdown reveal">
+          <div><b id="cdD">00</b><span>días</span></div>
+          <div><b id="cdH">00</b><span>horas</span></div>
+          <div><b id="cdM">00</b><span>min</span></div>
+          <div><b id="cdS">00</b><span>seg</span></div>
+        </div>
+        <p class="cd-label reveal" id="cdLabel"></p>
+      </div>
+    </div>
+  </section>
+
+  <!-- LA TAVOLA -->
+  <section class="tavola" id="tavola">
+    <div class="wrap"><div class="tav-head reveal"><p class="kicker">La tavola</p><h2>Para mirar <em>con hambre</em></h2></div></div>
+    <div class="strip" id="strip"></div>
+  </section>
+
+  <!-- VISITA -->
+  <section class="visita" id="visita">
+    <div class="wrap visita-grid">
+      <div class="visita-img reveal"><img src="img/fachada-arco.webp" alt="Fachada de Pepe Di Roma con su arco rojo" loading="lazy"></div>
+      <div class="visita-info">
+        <p class="kicker reveal">Vieni a trovarci</p>
+        <h2 class="reveal">Pasá por <em>el arco rojo</em></h2>
+        <dl class="reveal">
+          <dt>Dirección</dt><dd>Av. Francisco Beiró 3701<br>Villa Devoto, CABA</dd>
+          <dt>Horarios</dt><dd>Lunes a jueves y domingos, 8:30 a 00 h<br>Viernes y sábados, 8:30 a 01 h</dd>
+          <dt>Reservas</dt><dd>Por WhatsApp</dd>
+        </dl>
+        <div class="visita-ctas reveal">
+          <a class="btn btn-rosso" href="https://api.whatsapp.com/message/WBGK5C2JN6REC1?autoload=1&amp;app_absent=0" target="_blank" rel="noopener">Reservar por WhatsApp</a>
+          <a class="btn btn-line" href="https://www.google.com/maps/search/?api=1&amp;query=Pepe+Di+Roma+Av.+Francisco+Beir%C3%B3+3701+CABA" target="_blank" rel="noopener">Cómo llegar</a>
+        </div>
+        <a class="encuesta reveal" href="https://docs.google.com/forms/d/e/1FAIpQLSdYJ33POAe1T05ZuASk9z6ajkMgqvpR41QI5u8LAdY5fGLagg/viewform" target="_blank" rel="noopener">¿Ya nos visitaste? <u>Contanos cómo te fue</u> →</a>
+      </div>
+    </div>
+    <div class="map reveal">
+      <iframe title="Mapa: Pepe Di Roma, Av. Francisco Beiró 3701" loading="lazy" referrerpolicy="no-referrer-when-downgrade" src="https://www.google.com/maps?q=Av.+Francisco+Beir%C3%B3+3701,+C1419+CABA&amp;z=16&amp;output=embed"></iframe>
+    </div>
+  </section>
+</main>
+
+<footer class="footer">
+  <div class="wrap">
+    <div class="foot-top">
+      <span class="foot-logo" data-logo-white></span>
+      <p class="foot-tag">Amore eterno<br><em>per la pasta</em></p>
+    </div>
+    <div class="foot-cols">
+      <div><h3>Dónde</h3><p>Av. Francisco Beiró 3701<br>Villa Devoto, Buenos Aires</p></div>
+      <div><h3>Seguinos</h3><p><a href="https://www.instagram.com/pepediroma/" target="_blank" rel="noopener">Instagram @pepediroma</a></p></div>
+      <div><h3>Reservas</h3><p><a href="https://api.whatsapp.com/message/WBGK5C2JN6REC1?autoload=1&amp;app_absent=0" target="_blank" rel="noopener">WhatsApp</a></p></div>
+      <div><h3>Bueno saber</h3><p>No cobramos cubierto.<br>10% off pagando en efectivo.</p></div>
+    </div>
+    <p class="credit">© <span id="year"></span> Pepe Di Roma · Sitio desarrollado por <a href="https://alejomfernandez.com.ar" target="_blank" rel="noopener">Alejo Martín Fernández</a></p>
+  </div>
+</footer>
+
+<a class="fab" id="fab" href="https://api.whatsapp.com/message/WBGK5C2JN6REC1?autoload=1&amp;app_absent=0" target="_blank" rel="noopener">Reservar</a>
+
+<div class="lightbox" id="lightbox" hidden>
+  <button class="lb-close" id="lbClose" type="button" aria-label="Cerrar">×</button>
+  <button class="lb-nav lb-prev" id="lbPrev" type="button" aria-label="Anterior">‹</button>
+  <figure><img id="lbImg" alt=""><figcaption id="lbCap"></figcaption></figure>
+  <button class="lb-nav lb-next" id="lbNext" type="button" aria-label="Siguiente">›</button>
+</div>
+
+<div class="toast" id="toast" role="status"></div>
+
+<script src="js/icons.js?v=6"></script>
+<script src="js/menu.js?v=6"></script>
+<script src="js/main.js?v=6"></script>
+</body>
+</html>
